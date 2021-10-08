@@ -55,3 +55,8 @@ input#wager { margin-left: 5px; position: relative; top: 4px }
 		text-shadow: 1px 1px #000;
 		z-index: 1;
 	}
+
+.card-image {
+	display: flex;
+	justify-content: center;
+}
