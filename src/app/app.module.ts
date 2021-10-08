@@ -7,6 +7,7 @@ import { CardsComponent } from './components/cards/cards.component';
 import { DealerComponent } from './components/dealer/dealer.component';
 import { UserComponent } from './components/user/user.component';
 import { DeckComponent } from './components/deck/deck.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { DeckComponent } from './components/deck/deck.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
